@@ -15,7 +15,7 @@ A system can grow in several dimensions.
 
 # How to Scale a System
 1. Vertical Scaling (Scale Up)
-2. Horizonta Scaling
+2. Horizontal Scaling
 3. Load Balancing
 4. Caching
 5. Content Delivery Networks (CDNs)
