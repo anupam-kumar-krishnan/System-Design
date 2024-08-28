@@ -9,7 +9,7 @@
 - Design
 - Implementation
 - Testing
-- Deployemebt
+- Deployement
 - Monitoring and Maintenance
 
 # Key Concepts in System Design
