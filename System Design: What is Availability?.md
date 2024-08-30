@@ -1,7 +1,7 @@
 # System Design: What is Availability?
 - Availability refers to the proportion of time a system is operational and accessible when required.
 - The formal definition of availability is:
-> **_Availability = Uptime + (Uptime + Downtime)_**
+> **_Availability = Uptime / (Uptime + Downtime)_**
 - **Uptime:** The period during which a system is functional and acessible
 - **Downtime:** The period during which a system is unavailable due to failures, maintenance, or other issues.
 
