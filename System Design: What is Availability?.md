@@ -3,7 +3,7 @@
 - The formal definition of availability is:
 > **_Availability = Uptime + (Uptime + Downtime)_**
 - **Uptime:** The period during which a system is functional and acessible
-- **Downtime:** The period during which a system is unavailable due to failures, maintenaance, or other issues.
+- **Downtime:** The period during which a system is unavailable due to failures, maintenance, or other issues.
 
 ## Availablity Tiers
 - Availability is often expressed in "nines". The higher the availability, the less downtime there is.
