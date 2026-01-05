@@ -48,3 +48,88 @@ Example:
 - User can book a seat
 - User can upload an image
 
+### 3️⃣ Define Non-Functional Requirements
+
+How well the system should perform.
+
+Examples:
+
+- Scalability (horizontal vs vertical)
+- Availability (99.9%?)
+- Low latency (<200ms)
+- Security
+- Consistency
+
+### 4️⃣ High-Level Architecture
+
+Draw big blocks first.
+
+Typical components:
+
+- Client (Web / Mobile)
+- Load Balancer
+- Backend Services
+- Database
+- Cache
+- Message Queue (if needed)
+- Client → Load Balancer → API Server → Database
+
+### 5️⃣ Database Design
+
+Choose the right DB.
+
+Ask:
+
+- SQL or NoSQL?
+- Data relationships?
+- Read/write patterns?
+
+Example:
+- Booking system → SQL
+- Feed / timeline → NoSQL
+  
+Also discuss:
+- Indexing
+- Partitioning
+- Replication
+
+### 6️⃣ Handle Scale & Performance
+
+Add optimizations:
+- Caching (Redis)
+- CDN
+- Rate limiting
+- Pagination
+- Async processing (queues)
+
+### 7️⃣ Handle Edge Cases & Failures
+
+Shows senior-level thinking:
+
+- What if DB is down?
+- Duplicate requests?
+- Concurrent users?
+- Data consistency?
+
+### 8️⃣ APIs (Optional but Good)
+
+Define key APIs
+- POST /book-seat
+- GET /available-seats
+
+### 9️⃣ Trade-offs (Very Important)
+
+Every decision has a cost.
+
+Example:
+
+- SQL → strong consistency but less flexible
+- NoSQL → scalable but eventual consistency
+- Cache → faster reads but stale data risk
+
+📌 Always mention trade-offs.
+
+> **_System design is about structuring scalable, reliable, and efficient software systems while balancing trade-offs._**
+
+
+
